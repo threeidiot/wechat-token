@@ -9,7 +9,7 @@
   "license": "MIT",
   "type": "project",
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.1",
     "laravel/lumen-framework": "5.5.*",
     "vlucas/phpdotenv": "~2.2"
   },
@@ -36,6 +36,7 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "idehelp": [
+      "composer dumpautoload",
       "php artisan ide-helper:generate",
       "php artisan ide-helper:meta",
       "php artisan ide-helper:models -W -R"
